@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1,
+        "title": "Friends",
+        "icon": "Public_Assets/icons/about-us.png"
+    },
+    {
+        "id": 2,
+        "title": "Groups",
+        "icon": "Public_Assets/icons/groups.png"
+    },
+    {
+        "id": 3,
+        "title": "Marketplace",
+        "icon": "Public_Assets/icons/store.png"
+    },
+    {
+        "id": 4,
+        "title": "Watch",
+        "icon": "Public_Assets/icons/video-camera.png"
+    },
+    {
+        "id": 5,
+        "title": "Memories",
+        "icon": "Public_Assets/icons/time.png"
+    },
+    {
+        "id": 6,
+        "title": "Ad Center",
+        "icon": "Public_Assets/icons/social-media.png"
+    },
+    {
+        "id": 7,
+        "title": "Blood Donations",
+        "icon": "Public_Assets/icons/blood-drop.png"
+    },
+    {
+        "id": 8,
+        "title": "Climate Science Center",
+        "icon": "Public_Assets/icons/dry-tree.png"
+    },
+    {
+        "id": 9,
+        "title": "Community Help",
+        "icon": "Public_Assets/icons/electrocardiography.png"
+    },
+    {
+        "id": 10,
+        "title": "Events",
+        "icon": "Public_Assets/icons/inauguration.png"
+    },
+    {
+        "id": 11,
+        "title": "Facebook Pay",
+        "icon": "Public_Assets/icons/wallet.png"
+    },
+    {
+        "id": 12,
+        "title": "Fundraisers",
+        "icon": "Public_Assets/icons/fund.png"
+    },
+    {
+        "id": 13,
+        "title": "Live Videos",
+        "icon": "Public_Assets/icons/live-streaming.png"
+    },
+    {
+        "id": 14,
+        "title": "Messenger",
+        "icon": "Public_Assets/icons/messenger.png"
+    },
+    {
+        "id": 15,
+        "title": "Messenger Kids",
+        "icon": "Public_Assets/icons/messenger_kids.png"
+    },
+    {
+        "id": 16,
+        "title": "Most Recent",
+        "icon": "Public_Assets/icons/recent.png"
+    },
+    {
+        "id": 17,
+        "title": "Pages",
+        "icon": "Public_Assets/icons/flag.png"
+    },
+    {
+        "id": 18,
+        "title": "Play Games",
+        "icon": "Public_Assets/icons/game-controller.png"
+    },
+    {
+        "id": 19,
+        "title": "Saved",
+        "icon": "Public_Assets/icons/bookmark.png"
+    }
+]

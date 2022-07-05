@@ -11,16 +11,16 @@ import DesktopNavicon from '../HeaderFiles/DesktopNavicon'
 
 // Icons -> Make it JSON file sooner
 import { AiOutlineHome } from 'react-icons/ai'
-import { AiFillHome } from 'react-icons/ai'
+// import { AiFillHome } from 'react-icons/ai'
 
-import { BsCollectionPlay } from 'react-icons/bs'
+// import { BsCollectionPlay } from 'react-icons/bs'
 import { BsCollectionPlayFill } from 'react-icons/bs'
 
 import { RiStore2Line } from 'react-icons/ri'
-import { RiStore2Fill } from 'react-icons/ri'
+// import { RiStore2Fill } from 'react-icons/ri'
 
 import { HiOutlineUserGroup } from 'react-icons/hi'
-import { HiUserGroup } from 'react-icons/hi'
+// import { HiUserGroup } from 'react-icons/hi'
 
 import { IoGameControllerOutline } from 'react-icons/io5'
 
@@ -29,7 +29,10 @@ import { IoGameControllerOutline } from 'react-icons/io5'
 const Header = () => {
     return (
         <>
-            <header className="px-2 bg-white drop-shadow h-[3.5rem] flex items-center fixed top-0 w-full" style={{ zIndex: 100000 }}>
+            <header
+                className="px-2 bg-white drop-shadow h-[3.5rem] flex items-center fixed top-0 w-full"
+                style={{ zIndex: 100000 }}
+            >
                 <nav className="flex justify-between text-xl w-full">
                     <div className="inline-flex items-center gap-[1px] lg:w-[500px]">
                         <Image imgUrl='https://brandlogos.net/wp-content/uploads/2021/04/facebook-icon.png' size='h-[3.7rem] w-[3.7rem]' />
@@ -45,7 +48,7 @@ const Header = () => {
 
                         <button className="text-3xl ml-5 md:hidden"><HiOutlineMenu /></button>
                     </div>
-                    {/* <section className="bg-blue-500"></section> */}
+
                     <menu className='lg:grid grid-cols-5 items-center gap-2 hidden w-full max-w-lgMaxWidth mx-auto'>
                         <DesktopNavicon icon={<AiOutlineHome />} className="w-[7.5rem]" />
                         <DesktopNavicon isActive icon={<BsCollectionPlayFill />} />
@@ -53,7 +56,6 @@ const Header = () => {
                         <DesktopNavicon icon={<HiOutlineUserGroup />} />
                         <DesktopNavicon icon={<IoGameControllerOutline />} />
                     </menu>
-                    {/* <section className="bg-blue-700"></section> */}
 
                     <section className="flex items-center lg:w-[500px] justify-end">
                         <menu className='md:grid grid-cols-5 items-center mr-8 gap-1 hidden lg:hidden'>

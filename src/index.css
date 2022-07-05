@@ -10,8 +10,9 @@ body{
 
 .custom-sidebar::-webkit-scrollbar {
     width: 8.5px;
-    height: 20px;
+    z-index: 999999;
 }
+
 
 .custom-sidebar::-webkit-scrollbar-track {
     border-radius: 100vh;
@@ -22,9 +23,6 @@ body{
     border-radius: 100vh;
 }
 
-.left-sidebar::-webkit-scrollbar-thumb:hover {
-    background: #c0a0b9;
-}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

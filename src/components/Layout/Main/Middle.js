@@ -5,8 +5,8 @@ import Post from "../../PostCard";
 
 const Middle = () => {
     return (
-        <div className="max-w-middleMaxWidth mx-auto">
-            <section className="md:max-w-mdMaxWidth lg:max-w-lgMaxWidth mx-auto mt-[4.8rem] px-[2rem]">
+        <div className="w-full">
+            <section className="md:max-w-mdMaxWidth lg:max-w-lgMaxWidth mx-auto mt-[4.8rem] lg:px-[2rem]">
                 <MyDays />
                 <PostCreator />
                 <Room />
