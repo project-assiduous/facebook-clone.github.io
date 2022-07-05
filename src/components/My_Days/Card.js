@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = ({ userProfile, myDayUrl, userName }) => {
     return (
-        <figure className="h-[12.5rem] bg-white w-[7rem] rounded-xl shadow cursor-pointer overflow-hidden relative">
+        <figure className="h-[12.5rem] bg-white w-[130px] rounded-xl shadow cursor-pointer overflow-hidden relative">
             <figure className="absolute top-3 h-[2.6rem] w-[2.6rem] rounded-full border-4 border-blue-500 ml-2 z-50">
                 <img src={userProfile} alt="user name" className="rounded-full z-50 h-full w-full object-cover object-center" />
             </figure>

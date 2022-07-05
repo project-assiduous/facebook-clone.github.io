@@ -3,7 +3,7 @@ import React from 'react'
 const Navicon = ({ icon, color, fWeight, withNotification }) => {
     return (
         <>
-            <section className='bg-zinc-200 p-[.7rem] rounded-full relative'>
+            <section className='bg-zinc-200 p-[.7rem] rounded-full relative cursor-pointer'>
                 <p className={`${color} inline ${fWeight}`}>{icon}</p>
                 {
                     withNotification &&
